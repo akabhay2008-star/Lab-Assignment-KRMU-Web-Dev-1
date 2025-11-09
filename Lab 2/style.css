@@ -1,0 +1,150 @@
+/* ==========================
+   Global Styles
+========================== */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(238, 234, 234);
+  color: black;
+}
+
+/* ==========================
+   Header
+========================== */
+header {
+  background-color: rgb(38, 38, 141);
+  color: white;
+  text-align: center;
+  padding: 1px 1px;
+}
+
+/* ==========================
+   Navigation Bar
+========================== */
+nav {
+  background-color: rgb(38, 38, 141);
+  text-align: center;
+  padding: 12px;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  padding: 10px 15px;
+  margin: 0 5px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #168aad;
+  border-radius: 4px;
+}
+
+/* ==========================
+   Sections
+========================== */
+section {
+  background-color: rgb(238, 234, 234);
+  padding: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(41, 37, 37);
+}
+/* ==========================
+   Project Boxes
+========================== */
+#project1 {
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid rgb(39, 35, 35);
+  width: 50%;
+  background-color: white;
+}
+#project2 {
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid rgb(39, 35, 35);
+  width: 50%;
+  background-color: white;
+}
+
+/* ==========================
+   Profile Image
+========================== */
+.profile-img {
+  width: 268px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ==========================
+   Skills Table
+========================== */
+table {
+  width: 50%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid rgb(50, 29, 168);
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(27, 80, 150);
+  color: white;
+}
+
+/* ==========================
+   Buttons
+========================== */
+button {
+  background-color: rgb(27, 80, 150);
+  color: white;
+  border: none;
+  padding: 10px 90px;
+}
+
+button:hover {
+  background-color: rgb(37, 37, 180);
+}
+
+/* ==========================
+   Form Inputs
+========================== */
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid rgb(187, 180, 180);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* ==========================
+   Fixed Back to Top Button
+========================== */
+#top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(34, 34, 196);
+  color: white;
+  padding: 10px 15px;
+}
+
+/* ==========================
+   Horizontal Line Styling
+========================== */
+hr {
+  height: 1px;
+  background-color: rgb(42, 42, 155);
+}
